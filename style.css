@@ -6,26 +6,30 @@
 * {
   font-family: Cyberverse;
   font-weight: 300;
-  border: 0;
+  margin: 0;
   padding: 0;
 }
 
 body {
   background-color: rgb(10, 10, 10);
+
 }
 
 .container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  margin: 19% 19%;
 }
 
 .clock {
-  position: relative;
-  font-size: 150px;
-  height: 10%;
+  display: block;
+  margin: 20% auto;
+  padding: 20px 20px;
+  font-size: 500%;
+  width: 500px;
   color: rgb(200, 70, 200);
 }
 
